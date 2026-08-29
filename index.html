@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RAJA FARMS</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+/* ================= HEADER ================= */
+
+header{
+    width:100%;
+    background:#FFD600;
+}
+
+.header-banner{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+/* ================= NAVIGATION ================= */
+
+nav{
+    background:#8B2E1A;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#FFD600;
+}
+
+/* ================= HERO ================= */
+
+.hero{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+    url("cows.jpg");
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h1{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:22px;
+}
+
+/* ================= SECTION TITLE ================= */
+
+.section-title{
+    text-align:center;
+    color:#8B2E1A;
+    margin:40px 0 20px;
+    font-size:36px;
+}
+
+/* ================= PRODUCT CARDS ================= */
+
+.products{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+    padding:20px;
+}
+
+.card{
+    width:280px;
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card h3{
+    color:#8B2E1A;
+    text-align:center;
+    margin:15px 0;
+}
+
+.card p{
+    padding:0 15px 20px;
+    text-align:center;
+    color:#555;
+}
+
+/* ================= FOOTER ================= */
+
+footer{
+    background:#8B2E1A;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+
+footer h3{
+    margin-bottom:10px;
+}
+
+footer p{
+    margin:5px 0;
+}
+
+/* ================= MOBILE ================= */
+
+@media(max-width:768px){
+
+nav a{
+    display:block;
+    margin:10px 0;
+}
+
+.hero{
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:32px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.products{
+    flex-direction:column;
+    align-items:center;
+}
+
+.card{
+    width:90%;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+    <img src="image/Banner.jpeg" alt="RAJA FARMS Banner" class="header-banner">
+</header>
+
+<!-- NAVIGATION -->
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About Us</a>
+    <a href="#">Products</a>
+    <a href="#">Gallery</a>
+    <a href="#">Contact</a>
+</nav>
+
+<!-- HERO -->
+
+
+
+<!-- PRODUCTS -->
+
+<h2 class="section-title">Our Products</h2>
+
+<section class="products">
+
+<div class="card">
+<a href="cows.html">
+<img src="image/cows.jpg" alt="Cattle Feed">
+<h3>Cattle Feeds</h3>
+<p>Gold, Silver and Normal cattle feeds for healthy livestock and better milk production.</p>
+</a>
+</div>
+
+<div class="card">
+<a href="milk.html">
+<img src="image/milking.jpg" alt="Milking Machine">
+<h3>Milking Machines</h3>
+<p>Modern milking machines for hygienic and efficient dairy farming.</p>
+</a>
+</div>
+<div class="card">
+<a href="supplements.html">
+<img src="image/MineralsImage.png" alt="Mineral Mixture">
+<h3>Mineral Mixtures</h3>
+<p>High-quality mineral supplements to improve cattle health and productivity.</p>
+<a/>
+</div>
+
+<div class="card">
+<a href="tools.html">
+<img src="image/tools.jpg" alt="Agriculture Tools">
+<h3>Agriculture Tools</h3>
+<p>Quality agricultural tools for modern and efficient farming.</p>
+<a/>
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<h3>RAJA FARMS</h3>
+
+<p>3/36, Puzhinagoundanpudur, Pollachi, Coimbatore - 642002</p>
+
+<p>📞 82206 01234</p>
+
+<p>🌐 www.rajafarms.co.in | ✉ jay@rajafarms.co.in</p>
+
+<p style="margin-top:10px;">
+© 2026 RAJA FARMS. All Rights Reserved.
+</p>
+
+</footer>
+
+</body>
+</html>
