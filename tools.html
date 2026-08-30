@@ -1,8 +1,10 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Agriculture Tools</title>
 
 <style>
@@ -17,6 +19,7 @@ body{
     background:#f2f8f2;
 }
 
+/* Header */
 header{
     background:#2E7D32;
     color:white;
@@ -24,6 +27,11 @@ header{
     padding:20px;
 }
 
+header h1{
+    margin-bottom:8px;
+}
+
+/* Main Container */
 .container{
     width:90%;
     margin:30px auto;
@@ -33,6 +41,7 @@ header{
     gap:25px;
 }
 
+/* Card */
 .card{
     width:280px;
     background:white;
@@ -47,22 +56,35 @@ header{
     transform:scale(1.05);
 }
 
+/* Images */
 .card img{
     width:100%;
     height:200px;
     object-fit:cover;
 }
 
+/* Tool Name */
 .card h3{
     color:#2E7D32;
-    margin:15px 0;
+    margin:15px 0 10px;
 }
 
+/* Description */
 .card p{
-    padding:0 15px 20px;
+    padding:0 15px 10px;
     color:#555;
+    line-height:1.5;
 }
 
+/* Price */
+.price{
+    font-size:20px;
+    font-weight:bold;
+    color:#D84315;
+    margin:10px 0 15px;
+}
+
+/* Button */
 .btn{
     display:inline-block;
     margin-bottom:20px;
@@ -79,56 +101,146 @@ header{
 </style>
 
 </head>
+
 <body>
+
+<!-- Header -->
 
 <header>
     <h1>Agriculture Tools</h1>
     <p>Essential Farming Equipment for Modern Agriculture</p>
 </header>
 
+<!-- Agriculture Tools -->
+
 <div class="container">
 
-    <div class="card">
-        <img src="mamoty.jpg" alt="Spade">
-        <h3>Spade (Mamoty)</h3>
-        <p>Used for digging soil, making pits, and removing weeds.</p>
-        <a href="spade.html" class="btn">View Details</a>
+```
+<!-- Fork -->
+<div class="card">
+    <img src="image/Fork.jpeg" alt="Fork">
+
+    <h3>Fork</h3>
+
+    <p>
+        Used for lifting hay, straw, grass,
+        and other farm materials.
+    </p>
+
+    <div class="price">
+        Price: ₹1,020
     </div>
 
-    <div class="card">
-        <img src="hoe.jpg" alt="Hoe">
-        <h3>Hoe</h3>
-        <p>Used for loosening soil, weeding, and shaping planting rows.</p>
-        <a href="hoe.html" class="btn">View Details</a>
+    <a href="fork.html" class="btn">
+        View Details
+    </a>
+</div>
+
+
+<!-- Shovel -->
+<div class="card">
+    <img src="image/shovel.jpeg" alt="Shovel">
+
+    <h3>Shovel</h3>
+
+    <p>
+        Used for digging, moving soil,
+        sand, manure, and other materials.
+    </p>
+
+    <div class="price">
+        Price: ₹200
     </div>
 
-    <div class="card">
-        <img src="sickle.jpg" alt="Sickle">
-        <h3>Sickle</h3>
-        <p>Curved blade used for harvesting crops and cutting grass.</p>
-        <a href="sickle.html" class="btn">View Details</a>
+    <a href="shovel.html" class="btn">
+        View Details
+    </a>
+</div>
+
+
+<!-- Sickle -->
+<div class="card">
+    <img src="image/sickle.jpeg" alt="Sickle">
+
+    <h3>Sickle</h3>
+
+    <p>
+        Curved blade used for harvesting
+        crops and cutting grass.
+    </p>
+
+    <div class="price">
+        Price: ₹180
     </div>
 
-    <div class="card">
-        <img src="sprayer.jpg" alt="Sprayer">
-        <h3>Power Sprayer</h3>
-        <p>Used for spraying pesticides, fertilizers, and herbicides.</p>
-        <a href="sprayer.html" class="btn">View Details</a>
+    <a href="sickle.html" class="btn">
+        View Details
+    </a>
+</div>
+
+
+<!-- Power Sprayer -->
+<div class="card">
+    <img src="image/Sprayer.jpeg" alt="Power Sprayer">
+
+    <h3>Power Sprayer</h3>
+
+    <p>
+        Used for spraying pesticides,
+        fertilizers, and herbicides.
+    </p>
+
+    <div class="price">
+        Price: 8000
     </div>
 
-    <div class="card">
-        <img src="plough.jpg" alt="Plough">
-        <h3>Plough</h3>
-        <p>Used to prepare land by turning and loosening the soil.</p>
-        <a href="plough.html" class="btn">View Details</a>
+    <a href="sprayer.html" class="btn">
+        View Details
+    </a>
+</div>
+
+
+<!-- Plough -->
+<div class="card">
+    <img src="plough.jpg" alt="Plough">
+
+    <h3>Plough</h3>
+
+    <p>
+        Used to prepare land by turning
+        and loosening the soil.
+    </p>
+
+    <div class="price">
+        Price: ₹5,000
     </div>
 
-    <div class="card">
-        <img src="wheelbarrow.jpg" alt="Wheelbarrow">
-        <h3>Wheelbarrow</h3>
-        <p>Used for carrying manure, soil, harvested crops, and tools.</p>
-        <a href="wheelbarrow.html" class="btn">View Details</a>
+    <a href="plough.html" class="btn">
+        View Details
+    </a>
+</div>
+
+
+<!-- Wheelbarrow -->
+<div class="card">
+    <img src="wheelbarrow.jpg" alt="Wheelbarrow">
+
+    <h3>Wheelbarrow</h3>
+
+    <p>
+        Used for carrying manure, soil,
+        harvested crops, and tools.
+    </p>
+
+    <div class="price">
+        Price: ₹1,500
     </div>
+
+    <a href="wheelbarrow.html" class="btn">
+        View Details
+    </a>
+</div>
+```
 
 </div>
 

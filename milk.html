@@ -1,114 +1,174 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cow Feed</title>
+    <title>Milking Machine</title>
 
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-        }
+```
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
 
-        body{
-            font-family:Arial, sans-serif;
-            background:#f4f4f4;
-        }
+    body{
+        font-family:Arial, sans-serif;
+        background:#f4f4f4;
+    }
 
-        header{
-            background:#2e7d32;
-            color:white;
-            text-align:center;
-            padding:20px;
-        }
+    header{
+        background:#2e7d32;
+        color:white;
+        text-align:center;
+        padding:20px;
+    }
 
-        .container{
-            width:90%;
-            max-width:1100px;
-            margin:30px auto;
-            display:flex;
-            justify-content:space-around;
-            flex-wrap:wrap;
-            gap:20px;
-        }
+    header h1{
+        margin-bottom:8px;
+    }
 
-        .card{
-            background:white;
-            width:300px;
-            border-radius:10px;
-            overflow:hidden;
-            box-shadow:0 3px 10px rgba(0,0,0,0.2);
-            text-align:center;
-            transition:0.3s;
-        }
+    .container{
+        width:90%;
+        max-width:1100px;
+        margin:30px auto;
+        display:flex;
+        justify-content:space-around;
+        flex-wrap:wrap;
+        gap:20px;
+    }
 
-        .card:hover{
-            transform:scale(1.05);
-        }
+    .card{
+        background:white;
+        width:300px;
+        border-radius:10px;
+        overflow:hidden;
+        box-shadow:0 3px 10px rgba(0,0,0,0.2);
+        text-align:center;
+        transition:0.3s;
+    }
 
-        .card img{
-            width:100%;
-            height:220px;
-            object-fit:cover;
-        }
+    .card:hover{
+        transform:scale(1.05);
+    }
 
-        .card h2{
-            margin:15px 0;
-            color:#2e7d32;
-        }
+    .card img{
+        width:100%;
+        height:220px;
+        object-fit:cover;
+    }
 
-        .card p{
-            padding:0 15px 15px;
-            color:#555;
-        }
+    .card h2{
+        margin:15px 0;
+        color:#2e7d32;
+    }
 
-        .btn{
-            display:inline-block;
-            margin-bottom:20px;
-            padding:10px 20px;
-            background:#2e7d32;
-            color:white;
-            text-decoration:none;
-            border-radius:5px;
-        }
+    .card p{
+        padding:0 15px 15px;
+        color:#555;
+        line-height:1.5;
+    }
 
-        .btn:hover{
-            background:#1b5e20;
-        }
-    </style>
+    /* Price Tag */
+    .price{
+        font-size:20px;
+        font-weight:bold;
+        color:#d84315;
+        margin:10px 0 15px;
+    }
+
+    .btn{
+        display:inline-block;
+        margin-bottom:20px;
+        padding:10px 20px;
+        background:#2e7d32;
+        color:white;
+        text-decoration:none;
+        border-radius:5px;
+    }
+
+    .btn:hover{
+        background:#1b5e20;
+    }
+</style>
+```
+
 </head>
 
 <body>
 
 <header>
-    <h1>miking machine</h1>
-    <p>High Quality Feed for Healthy Cows</p>
+    <h1>Milking Machine</h1>
+    <p>High Quality Milking Machines for Healthy Cows</p>
 </header>
 
 <div class="container">
 
-    <div class="card">
-        <img src="image/Milk3Litre.jpeg" alt="Three Litre Machine">
-        <h2> 3 liter</h2>
-        <p> life made easy</p>
-        <a href="gold.html" class="btn">buy button</a>
+```
+<!-- 3 Litre Machine -->
+<div class="card">
+    <img src="image/Milk3Litre.jpeg" alt="Three Litre Milking Machine">
+
+    <h2>3 Litre Machine</h2>
+
+    <p>
+        Life made easy with this convenient
+        milking machine.
+    </p>
+
+    <div class="price">
+        Price: ₹25,000
     </div>
 
-    <div class="card">
-        <img src="image/Milk2Litre.jpeg" alt="two litre Machine">
-        <h2>2 liter</h2>
-        <p>this is used for few cows</p>
-        <a href="silver.html" class="btn">buy button</a>
+    <a href="gold.html" class="btn">
+        Buy Now
+    </a>
+</div>
+
+
+<!-- 2 Litre Machine -->
+<div class="card">
+    <img src="image/Milk2Litre.jpeg" alt="Two Litre Milking Machine">
+
+    <h2>2 Litre Machine</h2>
+
+    <p>
+        This machine is suitable for
+        farms with a few cows.
+    </p>
+
+    <div class="price">
+        Price: ₹20,000
     </div>
 
-    <div class="card">
-        <img src="image/normal.jpg" alt="">
-        <h23lither</h2>
-        <p>.</p>
-        <a href="normal.html" class="btn">buy button</a>
+    <a href="silver.html" class="btn">
+        Buy Now
+    </a>
+</div>
+
+
+<!-- 40 Litre Milk Can -->
+<div class="card">
+    <img src="image/milkcan.jpeg" alt="40 Litre Milk Can">
+
+    <h2>40 Litre Can</h2>
+
+    <p>
+        Used to store and transport milk
+        in larger quantities up to 40 litres.
+    </p>
+
+    <div class="price">
+        Price: ₹1,500
     </div>
+
+    <a href="normal.html" class="btn">
+        Buy Now
+    </a>
+</div>
+```
 
 </div>
 
