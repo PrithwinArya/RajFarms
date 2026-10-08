@@ -1,120 +1,218 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Supplements - Raja Farms</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mineral Mixtures</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f4f4f4;
-        }
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-        header {
-            background-color: #2e7d32;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
+body{
+    font-family:Arial, sans-serif;
+    background:#f2f8f2;
+}
 
-        header h1 {
-            margin: 0;
-            font-size: 28px;
-        }
+header{
+    background:#2E7D32;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
 
-        .container {
-            width: 90%;
-            max-width: 1100px;
-            margin: 30px auto;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 25px;
-        }
+header h1{
+    margin-bottom:8px;
+}
 
-        .card {
-            width: 280px;
-            background-color: white;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-            text-align: center;
-            transition: transform 0.3s;
-        }
+.container{
+    width:90%;
+    margin:30px auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+}
 
-        .card:hover {
-            transform: scale(1.05);
-        }
+.card{
+    width:280px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.2);
+    overflow:hidden;
+    text-align:center;
+    transition:0.3s;
+}
 
-        .card img {
-            width: 100%;
-            height: 200px;
-            object-fit: contain;
-            background-color: white;
-        }
+.card:hover{
+    transform:scale(1.05);
+}
 
-        .card h2 {
-            color: #2e7d32;
-            font-size: 20px;
-            margin: 15px 10px 10px;
-        }
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
 
-        .card p {
-            padding: 0 15px;
-            color: #555;
-            line-height: 1.5;
-        }
+.card h3{
+    color:#2E7D32;
+    margin:15px 0;
+}
 
-        .details-btn {
-            display: inline-block;
-            margin: 10px 0 20px;
-            padding: 10px 18px;
-            background-color: #2e7d32;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
+.card p{
+    padding:0 15px 10px;
+    color:#555;
+    line-height:1.5;
+}
 
-        .details-btn:hover {
-            background-color: #1b5e20;
-        }
+/* Price Tag */
+.price{
+    font-size:20px;
+    font-weight:bold;
+    color:#D84315;
+    margin:10px 0 15px;
+}
 
-        footer {
-            background-color: #2e7d32;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            margin-top: 30px;
-        }
-    </style>
+.btn{
+    display:inline-block;
+    margin-bottom:20px;
+    padding:10px 20px;
+    background:#2E7D32;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.btn:hover{
+    background:#1B5E20;
+}
+</style>
+
 </head>
 
 <body>
 
 <header>
-    <h1>Animal Feed Supplements</h1>
-    <p>Quality supplements for healthy and productive cattle</p>
+    <h1>Mineral Mixtures</h1>
+    <p>
+        Essential Mineral Mixtures for Cows, to support health
+        and improve the overall condition of the cow's body
+    </p>
 </header>
 
 <div class="container">
 
-    <div class="card">
-        <img src="image/inferty.png" alt="Inferty Supplement">
-        <h2>Inferty</h2>
-        <p>
-            Nutritional supplement to support the health and productivity
-            of dairy cattle.
-        </p>
-        <a href="spade.html" class="details-btn">View Details</a>
+
+<!-- Inferty -->
+<div class="card">
+    <img src="image/inferty.png" alt="Inferty">
+
+    <h3>Inferty</h3>
+
+    <p>
+        Mineral mixture to support the health
+        and nutritional needs of cows.
+    </p>
+
+    <div class="price">
+        Price: ₹500
     </div>
 
-    <div class="card">
-        <img src="image/bevetYeast.png" alt="Bevet Yeast Supplement">
-        <h2>Bevet Yeast</h2>
-        <p>
-            Yeast-based supplement that supports digestion and helps maintain
-            good rumen health.
-        </p>
-        <a href="hoe.html" class="details-btn">
+    <a href="spade.html" class="btn">
+        View Details
+    </a>
+</div>
+
+
+<!-- BevestYeast -->
+<div class="card">
+    <img src="image/bevetYeast.png" alt="BevestYeast">
+
+    <h3>BevestYeast</h3>
+
+    <p>
+        Nutritional supplement used to support
+        healthy digestion and cattle nutrition.
+    </p>
+
+    <div class="price">
+        Price: ₹450
+    </div>
+
+    <a href="hoe.html" class="btn">
+        View Details
+    </a>
+</div>
+
+
+<!-- Minkal -->
+<div class="card">
+    <img src="image/Minkal.png" alt="Minkal">
+
+    <h3>Minkal</h3>
+
+    <p>
+        Mineral supplement that can be included
+        as part of the daily nutritional needs of cows.
+    </p>
+
+    <div class="price">
+        Price: ₹400
+    </div>
+
+    <a href="sickle.html" class="btn">
+        View Details
+    </a>
+</div>
+
+
+<!-- Aminoliv40 -->
+<div class="card">
+    <img src="image/Aminoliv40.png" alt="Aminoliv40">
+
+    <h3>Aminoliv40</h3>
+
+    <p>
+        Nutritional supplement designed to support
+        the overall health and nutrition of cattle.
+    </p>
+
+    <div class="price">
+        Price: ₹600
+    </div>
+
+    <a href="sprayer.html" class="btn">
+        View Details
+    </a>
+</div>
+
+
+<!-- Calcimore Gold AD3 -->
+<div class="card">
+    <img src="image/calcimoregordAd3.png" alt="Calcimore Gold AD3">
+
+    <h3>Calcimore Gold AD3</h3>
+
+    <p>
+        Mineral supplement containing calcium and
+        vitamins to support the nutritional needs of cows.
+    </p>
+
+    <div class="price">
+        Price: ₹550
+    </div>
+
+    <a href="plough.html" class="btn">
+        View Details
+    </a>
+</div>
+
+
+</div>
+
+</body>
+</html>
